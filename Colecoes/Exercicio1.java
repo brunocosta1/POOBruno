@@ -9,8 +9,9 @@ public class Exercicio1 {
     String[] palavras = frase.split(" ");
 
     Map<String, Integer> mapa = new HashMap<String, Integer>();
+    mapa.put(palavras[0], 0);
+    mapa.put(palavras[1], 1);
 
-    for (String palavra : palavras) {
-    }
+    System.out.println(mapa.getValue());
   }
 }
